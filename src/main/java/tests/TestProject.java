@@ -19,7 +19,7 @@ public class TestProject {
     public void setUp(@Optional("")String browser){
 
     this.driver = new DriverHelper().setUpDriver(browser, driver);
-    this.wait = new WebDriverWait(driver, 11);
+    this.wait = new WebDriverWait(driver, 10);
 
     }
 
